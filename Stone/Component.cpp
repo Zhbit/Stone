@@ -53,13 +53,6 @@ bool Component::initWithFile(const char *fileName) {
         m_pFileNameArray = new CCArray();
         m_pFileNameArray->init();
         m_pFileNameArray->retain();
-        m_pFileNameArray->addObject(CCString::create(fileName));
-        
-        CCAnimation *animation = this->createAnimation(CCString::create(fileName));
-        
-        m_pAnimate = new CCAnimate();
-        m_pAnimate->initWithAnimation(animation);
-        m_pAnimate->retain();
         
         
         return true;
@@ -71,6 +64,16 @@ bool Component::initWithFile(const char *fileName) {
 void Component::setComponentStateWithFileName(const char *fileName) {
 
     m_pFileNameArray->addObject(CCString::create(fileName));
+    
+    CCAnimation *animation = this->createAnimation(CCString::create(fileName));
+    if (animation != NULL) {
+        
+        if (m_pAnimate == NULL) {
+            m_pAnimate = new CCAnimate();
+            m_pAnimate->retain();
+        }
+        m_pAnimate->initWithAnimation(animation);
+    }
 }
 
 void Component::nextState() {
