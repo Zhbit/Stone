@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1315C42F17D44D450069A729 /* Component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1315C42B17D44D450069A729 /* Component.cpp */; };
+		1315C43017D44D450069A729 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1315C42D17D44D450069A729 /* Entity.cpp */; };
+		1315C43A17D44D5C0069A729 /* jump01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1315C43117D44D5C0069A729 /* jump01.png */; };
+		1315C43B17D44D5C0069A729 /* jump02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1315C43217D44D5C0069A729 /* jump02.png */; };
+		1315C43C17D44D5C0069A729 /* jump03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1315C43317D44D5C0069A729 /* jump03.png */; };
+		1315C43D17D44D5C0069A729 /* jump04.png in Resources */ = {isa = PBXBuildFile; fileRef = 1315C43417D44D5C0069A729 /* jump04.png */; };
+		1315C43E17D44D5C0069A729 /* jump05.png in Resources */ = {isa = PBXBuildFile; fileRef = 1315C43517D44D5C0069A729 /* jump05.png */; };
+		1315C43F17D44D5C0069A729 /* run01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1315C43617D44D5C0069A729 /* run01.png */; };
+		1315C44017D44D5C0069A729 /* run02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1315C43717D44D5C0069A729 /* run02.png */; };
+		1315C44117D44D5C0069A729 /* run03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1315C43817D44D5C0069A729 /* run03.png */; };
+		1315C44217D44D5C0069A729 /* run04.png in Resources */ = {isa = PBXBuildFile; fileRef = 1315C43917D44D5C0069A729 /* run04.png */; };
 		139FE5FF17D0423D007CB905 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FE5FE17D0423D007CB905 /* QuartzCore.framework */; };
 		139FE60117D0423D007CB905 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FE60017D0423D007CB905 /* OpenGLES.framework */; };
 		139FE60317D0423D007CB905 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FE60217D0423D007CB905 /* OpenAL.framework */; };
@@ -283,6 +294,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1315C42B17D44D450069A729 /* Component.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Component.cpp; sourceTree = "<group>"; };
+		1315C42C17D44D450069A729 /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
+		1315C42D17D44D450069A729 /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
+		1315C42E17D44D450069A729 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		1315C43117D44D5C0069A729 /* jump01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jump01.png; sourceTree = "<group>"; };
+		1315C43217D44D5C0069A729 /* jump02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jump02.png; sourceTree = "<group>"; };
+		1315C43317D44D5C0069A729 /* jump03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jump03.png; sourceTree = "<group>"; };
+		1315C43417D44D5C0069A729 /* jump04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jump04.png; sourceTree = "<group>"; };
+		1315C43517D44D5C0069A729 /* jump05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jump05.png; sourceTree = "<group>"; };
+		1315C43617D44D5C0069A729 /* run01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run01.png; sourceTree = "<group>"; };
+		1315C43717D44D5C0069A729 /* run02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run02.png; sourceTree = "<group>"; };
+		1315C43817D44D5C0069A729 /* run03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run03.png; sourceTree = "<group>"; };
+		1315C43917D44D5C0069A729 /* run04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run04.png; sourceTree = "<group>"; };
 		139FE5FB17D0423D007CB905 /* Stone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		139FE5FE17D0423D007CB905 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		139FE60017D0423D007CB905 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -944,6 +968,15 @@
 		139FE60F17D0423D007CB905 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1315C43117D44D5C0069A729 /* jump01.png */,
+				1315C43217D44D5C0069A729 /* jump02.png */,
+				1315C43317D44D5C0069A729 /* jump03.png */,
+				1315C43417D44D5C0069A729 /* jump04.png */,
+				1315C43517D44D5C0069A729 /* jump05.png */,
+				1315C43617D44D5C0069A729 /* run01.png */,
+				1315C43717D44D5C0069A729 /* run02.png */,
+				1315C43817D44D5C0069A729 /* run03.png */,
+				1315C43917D44D5C0069A729 /* run04.png */,
 				139FE61017D0423D007CB905 /* CloseNormal.png */,
 				139FE61217D0423D007CB905 /* CloseSelected.png */,
 				139FE61417D0423D007CB905 /* Default.png */,
@@ -2093,6 +2126,10 @@
 		139FE99F17D04241007CB905 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1315C42B17D44D450069A729 /* Component.cpp */,
+				1315C42C17D44D450069A729 /* Component.h */,
+				1315C42D17D44D450069A729 /* Entity.cpp */,
+				1315C42E17D44D450069A729 /* Entity.h */,
 				139FE9A017D04241007CB905 /* AppDelegate.h */,
 				139FE9A117D04241007CB905 /* AppDelegate.cpp */,
 				139FE9A317D04241007CB905 /* HelloWorldScene.h */,
@@ -2164,6 +2201,15 @@
 				139FE62517D0423E007CB905 /* iTunesArtwork in Resources */,
 				139FE6C417D0423E007CB905 /* ChangeLog in Resources */,
 				139FE83817D04240007CB905 /* project.pbxproj in Resources */,
+				1315C43A17D44D5C0069A729 /* jump01.png in Resources */,
+				1315C43B17D44D5C0069A729 /* jump02.png in Resources */,
+				1315C43C17D44D5C0069A729 /* jump03.png in Resources */,
+				1315C43D17D44D5C0069A729 /* jump04.png in Resources */,
+				1315C43E17D44D5C0069A729 /* jump05.png in Resources */,
+				1315C43F17D44D5C0069A729 /* run01.png in Resources */,
+				1315C44017D44D5C0069A729 /* run02.png in Resources */,
+				1315C44117D44D5C0069A729 /* run03.png in Resources */,
+				1315C44217D44D5C0069A729 /* run04.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2423,6 +2469,8 @@
 				139FE99417D04241007CB905 /* cpVect.c in Sources */,
 				139FE9A217D04241007CB905 /* AppDelegate.cpp in Sources */,
 				139FE9A517D04241007CB905 /* HelloWorldScene.cpp in Sources */,
+				1315C42F17D44D450069A729 /* Component.cpp in Sources */,
+				1315C43017D44D450069A729 /* Entity.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2564,6 +2612,7 @@
 				139FE9AA17D04241007CB905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

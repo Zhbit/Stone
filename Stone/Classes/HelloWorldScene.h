@@ -2,6 +2,7 @@
 #define __HELLOWORLD_SCENE_H__
 
 #include "cocos2d.h"
+#include "Component.h"
 
 class HelloWorld : public cocos2d::CCLayer
 {
@@ -17,6 +18,11 @@ public:
 
     // preprocessor macro for "static create()" constructor ( node() deprecated )
     CREATE_FUNC(HelloWorld);
+    
+    void test();
+    void test1();
+    
+    Component *c;
 };
 
 #endif // __HELLOWORLD_SCENE_H__

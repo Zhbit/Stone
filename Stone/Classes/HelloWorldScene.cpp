@@ -1,5 +1,6 @@
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
+#include "Entity.h"
 
 using namespace cocos2d;
 using namespace CocosDenshion;
@@ -28,8 +29,31 @@ bool HelloWorld::init()
     {
         return false;
     }
+
+    Entity *e = Entity::entity();
+    e->setPosition(200, 100);
+    c = Component::componentWithFileName("run01.png");
+    c->setComponentStateWithFileName("jump01.png");
+    c->runAction(CCRepeatForever::create(c->getAnimate()));
+    e->addChild(c);
+    this->addChild(e);
+    
+    
+    this->scheduleOnce(schedule_selector(HelloWorld::test), 2.0);
     
     return true;
+}
+
+void HelloWorld::test() {
+    
+    c->nextState();
+    
+    this->scheduleOnce(schedule_selector(HelloWorld::test1), 2.0);
+}
+
+void HelloWorld::test1() {
+    
+    c->stateByIndex(0);
 }
 
 void HelloWorld::menuCloseCallback(CCObject* pSender)
